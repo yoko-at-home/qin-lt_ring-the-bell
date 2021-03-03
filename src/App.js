@@ -17,7 +17,7 @@ export default function Home() {
         spy={true}
         smooth={true}
         offset={-70}
-        duration={5000}
+        duration={500}
       >
         <div className='sheep blurHighlight-sheep'></div>
       </Link>

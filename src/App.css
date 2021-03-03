@@ -138,13 +138,7 @@ code {
   height: 100vh;
 }
 
-.section1__counter-container {
-  height: 100vh;
-  font-size: 6rem;
-  color: #fff;
-  text-align: center;
-  margin: 100px 50px;
-}
+
 
 .tag {
   font-size: 10rem;

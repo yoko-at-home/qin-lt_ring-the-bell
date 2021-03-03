@@ -5,7 +5,7 @@ import { Link } from 'react-scroll';
 
 export default function ConfettiSection() {
   const [height, setHeight] = useState(null);
-  const [width, setWidth] = useState(null);
+  const [width, setWidth] = useState('');
   const confetiRef = useRef(null);
 
   useEffect(() => {

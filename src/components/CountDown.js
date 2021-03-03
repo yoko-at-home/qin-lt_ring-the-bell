@@ -1,7 +1,6 @@
 import React from 'react';
 import { useCountUp } from 'react-countup';
 import { Link } from 'react-scroll';
-import './CountDown.styles.css';
 
 const CountDown = () => {
   const { countUp, start, pauseResume, reset, update } = useCountUp({
@@ -45,6 +44,13 @@ const CountDown = () => {
       </Link>
       <button className='button' onClick={() => update(23)}></button>
       <style jsx>{`
+      .section1__counter-container {
+        height: 100vh;
+        font-size: 6rem;
+        color: #fff;
+        text-align: center;
+        margin: 100px 50px;
+      }
         .button {
           width: 15px;
           height:15px;
