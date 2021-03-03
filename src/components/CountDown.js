@@ -3,7 +3,7 @@ import { useCountUp } from 'react-countup';
 import { Link } from 'react-scroll';
 
 const CountDown = () => {
-  const { countUp, start, pauseResume, reset, update } = useCountUp({
+  const { countUp, update } = useCountUp({
     start: 0,
     end: 8364,
     delay: 1000,
