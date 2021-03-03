@@ -1,0 +1,191 @@
+.section2__container {
+  background: radial-gradient(rgb(51, 255, 0), orange);
+  width: 100%;
+  padding: 150px 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section2__container h1 {
+  font-size: 4rem;
+  text-align: center;
+  color: #fff;
+  bottom: 0;
+  padding: 10px 15px;
+}
+.box {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 1200px;
+  height: 800px;
+  margin: 80px auto;
+  border-radius: 5px;
+  border: solid 3px;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+  transform: translateX(400%);
+  transition: transform 0.4s ease;
+}
+
+.box.img1 {
+  background: url(../assets/img/001.jpg) center center/cover;
+}
+.box.img2{
+  background: url(../assets/img/002.jpg) center center/cover;
+}
+.box.img3 {
+  background: url(../assets/img/003.jpg) center center/cover;
+}
+.box.img4 {
+  background: url(../assets/img/004.jpg) center center/cover;
+}
+.box.img5 {
+  background: url(../assets/img/005.jpg) center center/cover;
+}
+.box.img6 {
+  background: url(../assets/img/006.jpg) center center/cover;
+}
+.box.img7 {
+  background: url(../assets/img/007.jpg) top center/cover;
+}
+.box.sheep2{
+  background: url(../assets/img/sheep.jpg) top center/cover;
+}
+.box.horse{
+  background: url(../assets/img/horse.jpg) center center/cover;
+}
+.box.img8 {
+  background: url(../assets/img/008.jpg) center center/cover;
+}
+.box.img9 {
+  background: url(../assets/img/009.jpg) center center/cover;
+}
+.box.img10 {
+  background: url(../assets/img/010.jpg) center center/cover;
+}
+.box.img11 {
+  background: url(../assets/img/011.jpg) center center/cover;
+}
+.box.img12 {
+  background: url(../assets/img/012.jpg) center center/cover;
+}
+.box.img13 {
+  background: url(../assets/img/014.jpg) center center/cover;
+}
+.box.img14 {
+  background: url(../assets/img/014.jpg) center center/cover;
+}
+.box.img15 {
+  background: url(../assets/img/015.jpg) center center/cover;
+}
+.box.img16 {
+  background: url(../assets/img/016.jpg) center center/cover;
+}
+.box.img17 {
+  background: url(../assets/img/017.jpg) center center/cover;
+}
+.box.img18 {
+  background: url(../assets/img/018.jpg) center center/cover;
+}
+.box.img19 {
+  background: url(../assets/img/019.jpg) center center/cover;
+}
+.box.img20 {
+  background: url(../assets/img/020.jpg) center center/cover;
+}
+.box.img21 {
+  background: url(../assets/img/021.jpg) center center/cover;
+}
+.box.img22 {
+  background: url(../assets/img/022.jpg) center center/cover;
+}
+.box.img23 {
+  background: url(../assets/img/023.jpg) center center/cover;
+}
+.box.img24 {
+  background: url(../assets/img/024.jpg) center center/cover;
+}
+.box.img25 {
+  background: url(../assets/img/025.jpg) center center/cover;
+}
+.box.img26 {
+  background: url(../assets/img/026.jpg) center center/cover;
+}
+.box.img27 {
+  background: url(../assets/img/027.jpg) center center/cover;
+}
+.box.img28 {
+  background: url(../assets/img/028.jpg) center center/cover;
+}
+.box.img29 {
+  background: url(../assets/img/029.jpg) center center/cover;
+}
+.box.img30 {
+  background: url(../assets/img/030.jpg) center center/cover;
+}
+.box.img31 {
+  background: url(../assets/img/031.jpg) center center/cover;
+}
+
+.box.img101 {
+  background: url(../assets/img/101.jpg) center center/cover;
+}
+
+.box:nth-of-type(even) {
+  transform: translateX(-400%);
+}
+
+.box.show {
+  transform: translateX(0);
+}
+
+.box h3 {
+  font-size: 25px;
+  /* position: absolute;
+  bottom: 0; */
+  padding: 5px 10px;
+  background: rgba(175, 174, 174, 0.3);
+  text-shadow: 0px 0px 25px wheat;
+  border-radius: 10px;
+}
+.box-even {
+  /* background-color: steelblue; */
+  /* background: url(https://yokoiwasaki.netlify.app/images-kota/kota-03.jpg) */
+    /* top center/cover; */
+  color: #fff;
+   text-shadow: 0px 0px 25px wheat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 400px;
+  height: 300px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+  transform: translateX(400%);
+  transition: transform 0.4s ease;
+}
+
+.box-even:nth-of-type(even) {
+  transform: translateX(-400%);
+}
+
+.box-even.show {
+  transform: translateX(0);
+}
+
+.box-even h3 {
+  font-size: 30px;
+}
+
+.link{
+  width: 3px;
+  padding:0;
+  /* display: flex;
+  justify-content: flex-end; */
+}

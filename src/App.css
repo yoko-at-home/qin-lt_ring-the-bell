@@ -1,38 +1,202 @@
-.App {
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.description {
+  line-height: 1.5;
+  font-size: 1.5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+code {
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
+    DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  max-width: 800px;
+  margin-top: 3rem;
+}
+
+.card {
+  margin: 1rem;
+  flex-basis: 45%;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+.card h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.logo {
+  height: 1em;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+.sheep {
+  position: fixed;
+  top: 100px;
+  left: 100px;
+  width: 320px;
+  height: 300px;
+  border-radius: 5%;
+  border: #fff 3px solid;
+  z-index: 100;
+  background-image: url(./assets/img/sheep.jpg);
+  background-color: transparent;
+  display: block;
+  cursor: pointer;
+}
+.sheep.blurHighlight-sheep {
+  animation: blurHighlight-sheep 0.75s ease 3;
+}
+@keyframes blurHighlight-sheep {
+  from {
+    box-shadow: 0px 0px 10px #f5eddc, 0px 0px 100px #f5eddc,
+      0px 0px 150px #f5eddc, 0px 0px 25px #f5eddc, 0px 0px 25px #f5eddc,
+      0px 0px 25px #f5eddc, 0px 0px 25px #f5eddc, 0px 0px 25px #f5eddc,
+      0px 0px 50px #f5eddc, 0px 0px 50px #f5eddc, 0px 0px 50px #e6f704,
+      0px 0px 550px #e6f704, 0px 10px 100px #e6f704,
+      0px 10px 500px #f5eddc, 0px 10px 100px #f5eddc,
+      0px 10px 100px #f5eddc, 0px -10px 100px #f5eddc,
+      0px -10px 100px #f5eddc;
+  }
+}
+/*  */
+.section1__container {
+  background-image: radial-gradient(
+    rgba(27, 10, 5, 0.9),
+    rgba(16, 2, 22, 0.6)
+  );
+  align-items: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.title__container {
+  font-size: 10rem;
+  text-align: center;
+  color: chocolate;
+  margin: 150px;
+  padding: 150px 20px 60px 70px;
+  height: 100vh;
+}
+
+.section1__counter-container {
+  height: 100vh;
+  font-size: 6rem;
+  color: #fff;
+  text-align: center;
+  margin: 100px 50px;
+}
+
+.tag {
+  font-size: 10rem;
+  margin-top: 10px;
+  font-size: 10rem;
+  text-shadow: 0px 0px 10px #f5eddc;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 0 25px 10px 0;
+  display: inline-block;
+}
+
+.tag.highlight {
+  color: #fff;
+  font-size: 10rem;
+  font-weight: 1000;
+  animation: blurHighlight 0.5s ease-out 10;
+}
+.tag-top.highlight {
+  padding-top: 50px;
+  color: #fff;
+  font-size: 6rem;
+  font-weight: 800;
+  animation: blurHighlight 0.75s ease-out 2;
+}
+@keyframes blurHighlight {
+  from {
+    text-shadow: 0px 0px 10px #f5eddc, 0px 0px 100px #f5eddc,
+      /* 0px 0px 250px #f5eddc, 0px 0px 25px #f5eddc, 0px 0px 25px #f5eddc, */
+0px 0px 25px #f5eddc,
+      0px 0px 25px #f5eddc, 0px 0px 25px #f5eddc,
+      /* 0px 0px 50px #f5eddc, 0px 0px 50px #f5eddc, 0px 0px 50px #e6f704, */
+0px 0px 550px #e6f704,
+      0px 10px 50px #e6f704, 0px 10px 50px #f5eddc;
+    /* 0px 10px 100px #f5eddc, 0px 10px 50px #f5eddc, 0px -10px 100px #f5eddc, */
+    /* 0px -10px 100px #f5eddc; */
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+body {
+  background-color: rgb(24, 23, 23);
+  font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  position: relative;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+* {
+  box-sizing: border-box;
 }

@@ -1,25 +1,31 @@
-import logo from './logo.svg';
+import React from 'react';
+import Title from './components/Title';
+import CountDown from './components/CountDown';
+import Memory from './components/Memory';
+import BlankSpace from './components/BlankSpace';
+import ConfettiSection from './components/ConfettiSection';
+import { Link } from 'react-scroll';
+
 import './App.css';
 
-function App() {
+export default function Home() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Link
+        activeClass='active'
+        to='bottom'
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={5000}
+      >
+        <div className='sheep blurHighlight-sheep'></div>
+      </Link>
+      <Title />
+      <CountDown />
+      <Memory />
+      <BlankSpace />
+      <ConfettiSection />
+    </>
   );
 }
-
-export default App;

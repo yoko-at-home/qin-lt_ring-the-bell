@@ -1,0 +1,48 @@
+.title__container-confetti {
+  position: relative;
+  height: 100vh;
+  font-size: 1rem;
+}
+.party__title {
+  padding-top: 8%;
+  line-height: 1.5em;
+  font-size: 2.5rem;
+  z-index: 100;
+}
+
+.party {
+  z-index: 100;
+  font-size: 1.5rem;
+}
+
+.bottom {
+  position: absolute;
+  font-size: 2rem !important;
+  left: 350px;
+  bottom: -50px;
+  /* margin-bottom: 10px; */
+  cursor: pointer;
+}
+
+#party-info {
+  position: absolute;
+  background: rgb(250, 250, 250);
+  box-shadow: 10px 10px 10px rgba(238, 226, 238, 0.6);
+  padding: 20px;
+  margin: 0 auto;
+  height: 800px;
+  left: 10%;
+  right: 0;
+  text-align: center;
+  bottom: 15%;
+  width: 750px;
+  z-index: 2;
+  color: dimgray;
+}
+
+.confettie-wrap {
+  padding: 0px;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
