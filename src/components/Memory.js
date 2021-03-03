@@ -97,11 +97,11 @@ function Memory() {
       <div className='box sheep2'>
         <Link
           activeClass='active'
-          to='slide-next'
+          to='japan'
           spy={true}
           smooth={true}
           offset={-70}
-          duration={5000}
+          duration={7000}
         >
           <h3>明日、ひつじさんを連れて行く</h3>
         </Link>
