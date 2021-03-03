@@ -8,7 +8,7 @@ function Title() {
     <div>
       <Fade top>
         <div className='title__container' id='page-top'>
-          Ring the Bell
+          Ring the Bells
           <br />
           <Link
             activeClass='active'
