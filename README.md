@@ -1,4 +1,7 @@
 # Qin Lightning Talk -Ring the Bell-
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f8ec0b6e-87c6-43fd-869d-f50997e81c35/deploy-status)](https://app.netlify.com/sites/ring-the-bell/deploys)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
