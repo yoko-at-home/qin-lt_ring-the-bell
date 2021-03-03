@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.665a812c.chunk.css",
+    "main.js": "/static/js/main.f7fc9d18.chunk.js",
+    "main.js.map": "/static/js/main.f7fc9d18.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9f41c7c8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9f41c7c8.js.map",
+    "static/js/2.e55a22a2.chunk.js": "/static/js/2.e55a22a2.chunk.js",
+    "static/js/2.e55a22a2.chunk.js.map": "/static/js/2.e55a22a2.chunk.js.map",
+    "static/js/3.3d12e89f.chunk.js": "/static/js/3.3d12e89f.chunk.js",
+    "static/js/3.3d12e89f.chunk.js.map": "/static/js/3.3d12e89f.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.665a812c.chunk.css.map": "/static/css/main.665a812c.chunk.css.map",
+    "static/js/2.e55a22a2.chunk.js.LICENSE.txt": "/static/js/2.e55a22a2.chunk.js.LICENSE.txt",
+    "static/media/Memory.styles.css": "/static/media/horse.ae34200b.jpg",
+    "static/media/autumn.b0f85879.jpg": "/static/media/autumn.b0f85879.jpg",
+    "static/media/App.css": "/static/media/sheep.5a0daa3e.jpg",
+    "static/media/spring.708aa6bd.jpg": "/static/media/spring.708aa6bd.jpg",
+    "static/media/summer.ae53590c.jpg": "/static/media/summer.ae53590c.jpg",
+    "static/media/winter.901bd14e.jpg": "/static/media/winter.901bd14e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9f41c7c8.js",
+    "static/js/2.e55a22a2.chunk.js",
+    "static/css/main.665a812c.chunk.css",
+    "static/js/main.f7fc9d18.chunk.js"
+  ]
+}
