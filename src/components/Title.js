@@ -19,7 +19,7 @@ function Title() {
             duration={1000}
             easeInOutQuad
           >
-            <span style={{ fontSize: '36px' }}>
+            <span className='subtitle__container'>
               ひつじさんと Lightning Talk
             </span>
           </Link>
