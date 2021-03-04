@@ -28,7 +28,7 @@ const CountDown = () => {
         &nbsp;
         <br />
       </div>
-      <span>今を遡ること</span>
+      今を遡ること
       <div className='tag highlight' dataTarget='8364'>
         {countUp}
       </div>
@@ -44,23 +44,29 @@ const CountDown = () => {
       </Link>
       <button className='button' onClick={() => update(23)}></button>
       <style jsx>{`
-      .section1__counter-container {
-        height: 100vh;
-        font-size: 6rem;
-        color: #fff;
-        text-align: center;
-        margin: 100px 50px;
-      }
+        .section1__counter-container {
+          height: 100vh;
+          font-size: 6rem;
+          color: #fff;
+          text-align: center;
+          margin: 100px 50px;
+        }
         .button {
           width: 15px;
-          height:15px;
+          height: 15px;
           background-color: orange;
-          box-shadow:0px 0px 15px #f5eddc, 0px 0px 15px #f5eddc, 0px 0px 15px #e6f704;
-          border-radius:50%;
-          outline:none;
+          box-shadow: 0px 0px 15px #f5eddc, 0px 0px 15px #f5eddc,
+            0px 0px 15px #e6f704;
+          border-radius: 50%;
+          outline: none;
           border: 0;
           margin-left: 15px;
         }
+        @media screen and (max-width: 479px) {
+          .section1__counter-container {
+            font-size: 3rem;
+            margin: 100px auto;
+          }
         }
       `}</style>
     </div>
