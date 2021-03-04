@@ -167,7 +167,7 @@ function Memory() {
             offset={-70}
             duration={2000}
           >
-            <h3>2003 年 8 月 --- 日本へ</h3>
+            <h3>2003年8月 日本へ</h3>
           </Link>
         </div>
       </div>

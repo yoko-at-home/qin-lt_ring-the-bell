@@ -1,6 +1,6 @@
 # Qin Lightning Talk -Ring the Bell-
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/f8ec0b6e-87c6-43fd-869d-f50997e81c35/deploy-status)](https://app.netlify.com/sites/ring-the-bell/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/784b066c-f86d-4a3d-974a-fc0375f0f394/deploy-status)](https://app.netlify.com/sites/ring-the-bells/deploys)
 
 # Getting Started with Create React App
 

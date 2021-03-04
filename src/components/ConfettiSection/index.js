@@ -15,8 +15,15 @@ export default function ConfettiSection() {
 
   return (
     <>
-      <div className='confettie-wrap' ref={confetiRef}>
-        <Confetti numberOfPieces={350} width={width} height={height} />
+      <div
+        className='confettie-wrap'
+        ref={confetiRef}
+        style={{
+          background:
+            'radial-gradient(rgba(255,158,21,1) 0%, rgba(252,253,29,1) 63%, rgba(255,150,2,1) 100%',
+        }}
+      >
+        <Confetti numberOfPieces={650} width={width} height={height} />
 
         <div id='party-info'>
           <h3 className='party__title'>
@@ -39,8 +46,8 @@ export default function ConfettiSection() {
             <br />
             だから 光 が差し込むのだ
           </p>
-          <p className='party'>超訳: yoko</p>
-          <p className='bottom' id='bottom'>
+          <p className='party'>
+            超訳: yoko{' '}
             <Link
               activeClass='active'
               to='page-top'
@@ -53,6 +60,7 @@ export default function ConfettiSection() {
               ✨
             </Link>
           </p>
+          <p className='bottom' id='bottom'></p>
         </div>
       </div>
     </>
