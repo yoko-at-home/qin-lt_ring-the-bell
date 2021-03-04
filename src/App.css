@@ -134,7 +134,7 @@ code {
   text-align: center;
   color: chocolate;
   margin: 150px;
-  padding: 150px 20px 60px 70px;
+  padding: 25% 20px 60px 70px;
   height: 100vh;
 }
 
@@ -189,6 +189,7 @@ body {
   padding: 0;
   overflow-x: hidden;
   position: relative;
+  z-index: 0;
 }
 * {
   box-sizing: border-box;
