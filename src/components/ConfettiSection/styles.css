@@ -19,8 +19,8 @@
 .bottom {
   position: absolute;
   font-size: 2rem !important;
-  left: 350px;
-  bottom: -50px;
+  right: 0px;
+  bottom: -30px;
   /* margin-bottom: 10px; */
   cursor: pointer;
 }

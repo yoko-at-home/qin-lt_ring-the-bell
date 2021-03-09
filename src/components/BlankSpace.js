@@ -11,7 +11,7 @@ const BlankSpace = () => {
         spy={true}
         smooth={true}
         offset={-70}
-        duration={10000}
+        duration={50}
       >
         &nbsp;
         <br />
