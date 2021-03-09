@@ -2,6 +2,7 @@ import './styles.css';
 import Confetti from 'react-confetti';
 import React, { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-scroll';
+import Applause from '../Applause';
 
 export default function ConfettiSection() {
   const [height, setHeight] = useState(null);
@@ -60,8 +61,10 @@ export default function ConfettiSection() {
               ✨
             </Link>
           </p>
-          <p className='bottom' id='bottom'></p>
         </div>
+          <p className='bottom' id='buttons'>
+            <Applause />
+          </p>
       </div>
     </>
   );

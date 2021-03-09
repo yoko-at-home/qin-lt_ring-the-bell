@@ -13,7 +13,7 @@ export default function Home() {
     <>
       <Link
         activeClass='active'
-        to='bottom'
+        to='buttons'
         spy={true}
         smooth={true}
         offset={-70}
