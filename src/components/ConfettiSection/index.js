@@ -39,7 +39,7 @@ export default function ConfettiSection() {
           <p className='party'>by Leonard Cohen</p>
           <p className='party'>💓</p>
           <p className='party'>
-            まだ鳴るその鐘を すべて 鳴らそう
+            まだ鳴る その鐘を すべて 鳴らそう
             <br />
             完璧 など 忘れてしまえ
             <br />
