@@ -52,7 +52,6 @@ export default function ConfettiSection() {
             <Link
               activeClass='active'
               to='page-top'
-              scrollToTop
               spy={true}
               smooth='easeInOutQuart'
               offset={-70}
@@ -62,9 +61,9 @@ export default function ConfettiSection() {
             </Link>
           </p>
         </div>
-          <p className='bottom' id='buttons'>
-            <Applause />
-          </p>
+        <p className='bottom' id='buttons'>
+          <Applause />
+        </p>
       </div>
     </>
   );

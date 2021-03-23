@@ -17,7 +17,7 @@ function Title() {
             smooth={true}
             offset={-70}
             duration={1000}
-            easeInOutQuad
+            // easeInOutQuad
           >
             <span className='subtitle__container'>
               ひつじさんと Lightning Talk

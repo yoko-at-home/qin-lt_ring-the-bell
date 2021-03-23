@@ -15,7 +15,7 @@ function Memory() {
       boxes.forEach((box) => {
         const boxTop = box.getBoundingClientRect().top;
         if (boxTop < triggerBottom) {
-          console.log('foo');
+          // console.log('foo');
           box.classList.add('show');
         } else {
           box.classList.remove('show');
@@ -115,7 +115,7 @@ function Memory() {
           smooth={true}
           offset={-70}
           duration={10000}
-          easeInOutQuad
+          // easeInOutQuad
         >
           <h3>楽しくも慌ただしい5年と3ヶ月の月日が流れ</h3>
         </Link>

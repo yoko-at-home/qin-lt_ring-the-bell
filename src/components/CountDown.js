@@ -29,9 +29,7 @@ const CountDown = () => {
         <br />
       </div>
       今を遡ること
-      <div className='tag highlight' dataTarget='8364'>
-        {countUp}
-      </div>
+      <div className='tag highlight'>{countUp}</div>
       <Link
         activeClass='active'
         to='section2'
