@@ -15,7 +15,7 @@ const Content = ({ title, description, width, style }) => {
   return (
     <ContentWrapper width={width} style={style}>
       <h2>{title}</h2>
-      <p style={{ fontFamily: 'cursive' }}>{description}</p>
+      <p style={{ fontFamily: 'cursive', fontSize: '2rem' }}>{description}</p>
     </ContentWrapper>
   );
 };
@@ -23,7 +23,7 @@ const Content = ({ title, description, width, style }) => {
 Content.defaultProps = {
   description:
     'You can add up the parts. But you won’t have the sum. You can strike up the march. There is no drum. Every heart, every heart. To love will come. But like a refugee.',
-  width: '30%',
+  width: '33%',
   title: 'Slide title here',
 };
 

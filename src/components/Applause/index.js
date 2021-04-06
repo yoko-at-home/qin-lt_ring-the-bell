@@ -7,11 +7,11 @@ function Applause() {
   return (
     <>
       <button className='btn' onClick={start}>
-        ✨
+        ❤️
       </button>
       <style jsx>{`
         .btn {
-          border-radius:  50%;
+          border-radius: 50%;
           border: none;
           -moz-text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
           -webkit-text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
@@ -22,7 +22,6 @@ function Applause() {
           font-size: 1rem;
           cursor: pointer;
           background: transparent;
-          box-shadow: 0px -6px 36px 0px #fbeb36, 0px 0px 6px 0px #ffb347;
         }
 
         .btn:focus {

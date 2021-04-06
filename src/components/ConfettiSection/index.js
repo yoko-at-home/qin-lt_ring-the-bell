@@ -61,7 +61,9 @@ export default function ConfettiSection() {
             </Link>
           </p>
         </div>
-        <p className='bottom' id='buttons'>
+        <p className='bottom'></p>
+        <p className='thanks' id='buttons'>
+          Special thanks to Ippo 
           <Applause />
         </p>
       </div>

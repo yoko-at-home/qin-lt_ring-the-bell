@@ -16,13 +16,13 @@
   font-size: 1rem;
 }
 
-.bottom {
+.thanks {
   position: absolute;
-  font-size: 2rem !important;
+  font-size:  1.5rem !important;
   left: 30px;
-  bottom: 780px;
-  /* margin-bottom: 10px; */
-  cursor: pointer;
+  bottom: 0;
+  color:rgb(237, 242, 245);
+  text-shadow: 5px 8px 15px rgb(62, 60, 168);
 }
 
 #party-info {
