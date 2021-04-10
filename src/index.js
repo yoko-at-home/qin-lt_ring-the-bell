@@ -3,10 +3,17 @@ import ReactDOM from 'react-dom';
 // import './index.css';
 import Home from './App';
 import reportWebVitals from './reportWebVitals';
+import MouseParticles from 'react-mouse-particles';
 
 ReactDOM.render(
   <React.StrictMode>
     <Home />
+    <MouseParticles
+      g={1}
+      color='random'
+      cull='MuiSvgIcon-root,MuiButton-root'
+      level={6}
+    />
   </React.StrictMode>,
   document.getElementById('root')
 );
