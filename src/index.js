@@ -11,8 +11,9 @@ ReactDOM.render(
     <MouseParticles
       g={1}
       color='random'
+      radius={10}
       cull='MuiSvgIcon-root,MuiButton-root'
-      level={6}
+      level={10}
     />
   </React.StrictMode>,
   document.getElementById('root')
