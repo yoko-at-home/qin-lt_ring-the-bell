@@ -61,10 +61,10 @@ export default function ConfettiSection() {
             </Link>
           </p>
         </div>
-        <p className='bottom'></p>
-        <p className='thanks' id='buttons'>
-          Special thanks to Ippo 
-          <Applause />
+        <p className='thanks' style={{ textAlign: 'center' }} id='buttons'>
+          Special thanks to
+          <br />
+          Ippo <Applause /> Pitang
         </p>
       </div>
     </>
